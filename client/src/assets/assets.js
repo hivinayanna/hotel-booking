@@ -9,7 +9,7 @@ import starIconOutlined from "./starIconOutlined.svg";
 import instagramIcon from "./instagramIcon.svg";
 import facebookIcon from "./facebookIcon.svg";
 import twitterIcon from "./twitterIcon.svg";
-import linkendinIcon from "./linkendinIcon.svg";
+import linkedinIcon from "./linkedinIcon.svg";
 import freeWifiIcon from "./freeWifiIcon.svg";
 import freeBreakfastIcon from "./freeBreakfastIcon.svg";
 import roomServiceIcon from "./roomServiceIcon.svg";
@@ -50,7 +50,7 @@ export const assets = {
   instagramIcon,
   facebookIcon,
   twitterIcon,
-  linkendinIcon,
+  linkedinIcon,
   freeWifiIcon,
   freeBreakfastIcon,
   roomServiceIcon,
@@ -72,8 +72,6 @@ export const assets = {
   totalBookingIcon,
   totalRevenueIcon,
 };
-
-export const cities = ["Dubai", "Singapore", "New York", "London"];
 
 // Exclusive Offers Dummy Data
 export const exclusiveOffers = [
@@ -189,7 +187,7 @@ export const userDummyData = {
 export const hotelDummyData = {
   _id: "67f76393197ac559e4089b72",
   name: "Urbanza Suites",
-  address: "Main Road  123 Street , 23 Colony",
+  address: "Main Road 123 Street, 23 Colony",
   contact: "+0123456789",
   owner: userDummyData,
   city: "New York",
