@@ -171,11 +171,10 @@ export const roomCommonData = [
 
 // User Dummy Data
 export const userDummyData = {
-  _id: "user_33Cu8kYAzIokOTdKP1wjP2ZifEO",
+  _id: import.meta.env.VITE_DUMMY_USER_ID,
   username: "Rodriguez",
-  email: "user.rodriguez@gmail.com",
-  image:
-    "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvdXBsb2FkZWQvaW1nXzMzQ3VHQkZGV2dBN3pVTFhmV1JCdXBCRUw0VyJ9",
+  email: import.meta.env.VITE_DUMMY_USER_EMAIL,
+  image: import.meta.env.VITE_DUMMY_USER_IMAGE,
   role: "hotelOwner",
   createdAt: "2025-03-25T09:29:16.367Z",
   updatedAt: "2025-04-10T06:34:48.719Z",
