@@ -31,6 +31,7 @@ const ExclusiveOffers = () => {
             <p className="px-3 py-1 absolute top-4 left-4 text-xs bg-white text-gray-800 font-medium rounded-full">
               {item.priceOff}% OFF
             </p>
+
             <div>
               <p className="text-2xl font-medium font-playfair">{item.title}</p>
               <p>{item.description}</p>
@@ -38,6 +39,7 @@ const ExclusiveOffers = () => {
                 Expires {item.expiryDate}
               </p>
             </div>
+
             <button className="flex items-center gap-2 font-medium cursor-pointer mt-4 mb-5">
               View Offers
               <img

@@ -78,10 +78,12 @@ const AllRooms = () => {
               >
                 {room.hotel.name}
               </p>
+
               <div className="flex items-center">
                 <StarRating></StarRating>
                 <p className="ml-2">200+ reviews</p>
               </div>
+
               <div className="flex items-center gap-1 text-gray-500 mt-2 text-sm">
                 <img src={assets.locationIcon} alt="location-icon" />
                 <span>{room.hotel.address}</span>
@@ -143,12 +145,14 @@ const AllRooms = () => {
               <CheckBox key={index} label={room} />
             ))}
           </div>
+
           <div className="px-5 pt-5">
             <p className="font-medium text-gray-800 pb-2">Price Range</p>
             {priceRanges.map((range, index) => (
               <CheckBox key={index} label={`${range}`} />
             ))}
           </div>
+
           <div className="px-5 pt-5 pb-7">
             <p className="font-medium text-gray-800 pb-2">Sort By</p>
             {sortOptions.map((option, index) => (

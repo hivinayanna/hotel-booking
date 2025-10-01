@@ -63,7 +63,7 @@ const NavBar = () => {
           : "py-4 md:py-6"
       }`}
     >
-      {/* Logo */}
+      {/* logo */}
       <Link to="/">
         <img
           src={assets.logo}
@@ -72,7 +72,7 @@ const NavBar = () => {
         />
       </Link>
 
-      {/* Desktop Nav */}
+      {/* desktop nav */}
       <div className="hidden md:flex items-center gap-4 lg:gap-8">
         {navLinks.map((link, i) => (
           <a
@@ -100,7 +100,7 @@ const NavBar = () => {
         </button>
       </div>
 
-      {/* Desktop Right */}
+      {/* desktop right */}
       <div className="hidden md:flex items-center gap-4">
         <img
           src={assets.searchIcon}
@@ -123,14 +123,14 @@ const NavBar = () => {
         ) : (
           <button
             onClick={openSignIn}
-            className={`bg-black text-white px-8 py-2.5 rounded-full transition-all duration-500`}
+            className={`bg-black text-white px-8 py-2.5 rounded-full transition-all duration-500 cursor-pointer`}
           >
             Login
           </button>
         )}
       </div>
 
-      {/* Mobile Menu Button */}
+      {/* mobile menu button */}
       <div className="flex items-center gap-3 md:hidden">
         {user && (
           <UserButton>
@@ -151,7 +151,7 @@ const NavBar = () => {
         />
       </div>
 
-      {/* Mobile Menu */}
+      {/* mobile menu */}
       <div
         className={`fixed top-0 left-0 w-full h-screen bg-white text-base flex flex-col md:hidden items-center justify-center gap-6 font-medium text-gray-800 transition-all duration-500 ${
           isMenuOpen ? "translate-x-0" : "-translate-x-full"

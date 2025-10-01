@@ -50,6 +50,7 @@ const RoomDetails = () => {
               className="w-full rounded-xl shadow-lg object-cover"
             />
           </div>
+
           <div className="grid grid-cols-2 gap-4 lg:w-1/2 w-full">
             {room?.images.length > 1 &&
               room.images.map((image, index) => (
@@ -72,6 +73,7 @@ const RoomDetails = () => {
             <h1 className="text-3xl md:text-4xl font-playfair">
               Experience Luxury Like Never Before
             </h1>
+
             <div className="flex flex-wrap items-center mt-3 mb-6 gap-4">
               {room.amenities.map((item, index) => (
                 <div
@@ -108,6 +110,7 @@ const RoomDetails = () => {
                 required
               />
             </div>
+
             <div className="w-px h-15 bg-gray-300/70 max-md:hidden"></div>
             <div className="flex flex-col">
               <label htmlFor="checkOutDate" className="font-medium">
@@ -121,6 +124,7 @@ const RoomDetails = () => {
                 required
               />
             </div>
+
             <div className="w-px h-15 bg-gray-300/70 max-md:hidden"></div>
             <div className="flex flex-col">
               <label htmlFor="guests" className="font-medium">
@@ -152,6 +156,7 @@ const RoomDetails = () => {
                 alt={`${spec.title}-icon`}
                 className="w-6.5"
               />
+
               <div>
                 <p className="text-base">{spec.title}</p>
                 <p className="text-gray-500">{spec.description}</p>
@@ -178,6 +183,7 @@ const RoomDetails = () => {
               alt="host"
               className="w-14 h-14 md:h-18 md:w-18 rounded-full"
             />
+
             <div>
               <p className="text-lg md:text-xl">Hosted by {room.hotel.name}</p>
               <div className="flex items-center mt-1">

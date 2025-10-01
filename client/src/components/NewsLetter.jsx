@@ -9,6 +9,7 @@ const NewsLetter = () => {
         title="Stay Inspired"
         subtitle="Join our newsletter and be the first to discover new destinations, exclusive offers, and travel inspiration."
       />
+
       <div className="flex flex-col md:flex-row items-center justify-center gap-4 mt-6">
         <input
           type="text"
@@ -24,6 +25,7 @@ const NewsLetter = () => {
           />
         </button>
       </div>
+
       <p className="text-gray-500 mt-6 text-xs text-center">
         By subscribing, you agree to our Privacy Policy and consent to receive
         updates.

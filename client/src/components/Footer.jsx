@@ -15,6 +15,7 @@ const Footer = () => {
             Discover the world's most extraordinary places to stay, from
             boutique hotels to luxury villas and private islands.
           </p>
+
           <div className="flex items-center gap-3 mt-4">
             {/* Instagram */}
             <img
@@ -22,14 +23,17 @@ const Footer = () => {
               alt="instagram-icon"
               className="w-6"
             />
+
             {/* Facebook */}
             <img
               src={assets.facebookIcon}
               alt="facebook-icon"
               className="w-6"
             />
+
             {/* Twitter */}
             <img src={assets.twitterIcon} alt="twitter-icon" className="w-6" />
+
             {/* LinkedIn */}
             <img
               src={assets.linkedinIcon}
@@ -45,15 +49,19 @@ const Footer = () => {
             <li>
               <a href="#">About</a>
             </li>
+
             <li>
               <a href="#">Careers</a>
             </li>
+
             <li>
               <a href="#">Press</a>
             </li>
+
             <li>
               <a href="#">Blog</a>
             </li>
+
             <li>
               <a href="#">Partners</a>
             </li>
@@ -66,15 +74,19 @@ const Footer = () => {
             <li>
               <a href="#">Help Center</a>
             </li>
+
             <li>
               <a href="#">Safety Information</a>
             </li>
+
             <li>
               <a href="#">Cancellation Options</a>
             </li>
+
             <li>
               <a href="#">Contact Us</a>
             </li>
+
             <li>
               <a href="#">Accessibility</a>
             </li>
@@ -86,6 +98,7 @@ const Footer = () => {
           <p className="mt-3 text-sm">
             Subscribe to our newsletter for inspiration and special offers.
           </p>
+
           <div className="flex items-center mt-4">
             <input
               type="text"
@@ -93,7 +106,7 @@ const Footer = () => {
               placeholder="Your email"
             />
             <button className="flex items-center justify-center bg-black h-9 w-9 aspect-square rounded-r cursor-pointer">
-              {/* Arrow icon */}
+              {/* arrow icon */}
               <img
                 src={assets.arrowIcon}
                 alt="arrow-icon"
@@ -103,6 +116,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
+
       <hr className="border-gray-300 mt-8" />
       <div className="flex flex-col md:flex-row gap-2 items-center justify-between py-5">
         <p>© {new Date().getFullYear()} QuickStay. All rights reserved.</p>
@@ -110,9 +124,11 @@ const Footer = () => {
           <li>
             <a href="#">Privacy</a>
           </li>
+
           <li>
             <a href="#">Terms</a>
           </li>
+
           <li>
             <a href="#">Sitemap</a>
           </li>

@@ -34,6 +34,7 @@ const Hero = () => {
             <img src={assets.calenderIcon} alt="calenderIcon" className="h-4" />
             <label htmlFor="destinationInput">Destination</label>
           </div>
+
           <input
             list="destinations"
             id="destinationInput"
